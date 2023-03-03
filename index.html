@@ -24,20 +24,16 @@
 
         <div id="content">
             <div id="intro">
-                <p>This is not a real online service! You know you need something
-                    like this in your life to help you realize your deepest dreams.</p>
-    
-                <p>Sign up now to get started.</p>
+                <p>Sign up for our service today and experience a never-ending supply of your favorite crunchy snacks, bringing you comfort and joy with every bite.</p>
                 
-                <p id="tempt">You know you want to.</p>
             </div>
             
 
             <form action="https://matosmiguel.com" method="get"> 
                 <!-- Using get just so I have somewhere for the page to go -->
                 <div id="formarea">
-                    <p>Let's do this!</p>
-                    <div id="container">
+                    <p>Not a real site!</p>
+                    <div class="container">
                         <div>
                             <label for="fname">FIRST NAME</label>
                             <input type="text" id="fname" name="fname" required>    
@@ -56,20 +52,23 @@
                         </div>
                         <div>
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password" required>
+                            <input class="option" type="password" id="password" name="password" required>
                         </div>
                         <div>
                             <label for="password2">CONFIRM PASSWORD</label>
-                            <input type="password" id="password2" name="password2" required>
+                            <input class="option" type="password" id="password2" name="password2" required>
                         </div>
                     </div>
                     
                 </div>
-                <button type="submit">Create Account</button>
-
+                <div class="container">
+                    <button id="submit" type="submit">Create Account</button>
+                    <p id="login">Already have an account? <a href="https://matosmiguel.com">Log in</a></p>
+                </div>
+                
             </form>
 
-            <p id="login">Already have an account? <a href="https://matosmiguel.com">Log in</a></p>
+           
         </div>
     </main>
 </body>
