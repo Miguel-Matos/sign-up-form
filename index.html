@@ -24,8 +24,7 @@
 
         <div id="content">
             <div id="intro">
-                <p>A never-ending supply of your favorite crunchy snacks, bringing you comfort and joy with every bite.</p>
-                
+                <p>A never-ending supply of your favorite nuts, bringing you pleasure with every mouthful.</p>
             </div>
             
 
@@ -52,11 +51,11 @@
                         </div>
                         <div>
                             <label for="password">PASSWORD</label>
-                            <input class="error" type="password" id="password" name="password" required>
+                            <input class="error" type="password" id="password" name="password" pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/gm" required>
                         </div>
                         <div>
                             <label for="password2">CONFIRM PASSWORD</label>
-                            <input class="error" type="password" id="password2" name="password2" required>
+                            <input class="error" type="password" id="password2" name="password2" pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/gm" required>
                         </div>
                     </div>
                     
