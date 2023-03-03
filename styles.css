@@ -127,6 +127,7 @@ input {
     padding-left: 10px;
 }
 
-input:focus {
+input:focus, input:hover {
     border-color: rgb(147, 212, 247);
+    background-color: #f4f4f4;
 }
