@@ -1,4 +1,4 @@
-/* @media only screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
     main {
         margin: auto;
         display: flex;
@@ -132,7 +132,7 @@
         border-color: rgb(147, 212, 247);
         background-color: #f4f4f4;
     }
-} */
+}
 
 @media only screen and (max-width: 800px) {
     main {
@@ -205,15 +205,16 @@
     
     .container {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         font-family: sans-serif;
         font-size: 12px;
         color: #666;
         font-weight: bold;
+        justify-content: center;
     }
     #formarea .container div {
-        margin-left: 25px;
-        width: 35%;
+        margin: 0 25px;
         display: flex;
         flex-direction: column;
         padding-bottom: 30px;
@@ -238,18 +239,13 @@
         background-color: wheat;
         border-radius: 10px;
         box-shadow: none;
-        
-    }
-    
-    button, #login {
-        margin-left: 25px;
+        margin: 0 25px;
     }
     
     #login {
+        margin: 25px 0;
         font-size: 15px;
-        flex: 1;
-        text-align: right;
-        padding-right: 25px;
+        text-align: center;
     }
     
     a {
